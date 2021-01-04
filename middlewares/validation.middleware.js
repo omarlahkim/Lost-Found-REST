@@ -29,7 +29,6 @@ const signup = (req, res, next) => {
     }
   });
 };
-
 const signin = (req, res, next) => {
   const validationRule = {
     username: "required|string",
